@@ -1,6 +1,6 @@
 package com.example.appbanthuo;
 
-public class Congan {
+public class Thuoc {
     private String hoten;
     private String capbac;
     private String noicongtac;
@@ -8,7 +8,7 @@ public class Congan {
     private String sosao;
     private int hinh;
 
-    public Congan(String hoten, String capbac, String noicongtac, String quocgia, String sosao, int hinh) {
+    public Thuoc(String hoten, String capbac, String noicongtac, String quocgia, String sosao, int hinh) {
         this.hoten = hoten;
         this.capbac = capbac;
         this.noicongtac = noicongtac;

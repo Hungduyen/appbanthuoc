@@ -12,24 +12,21 @@ import java.util.ArrayList;
 
 public class MainActivity2 extends AppCompatActivity {
     ListView listView;
-    ArrayList<Congan> arrayList;
-    Adapter_congan adapter;
+    ArrayList<Thuoc> arrayList;
+    Adapter_thuoc adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         listView = findViewById(R.id.listviewthuoc);
         arrayList = new ArrayList<>();
-        arrayList.add(new Congan( "TRƯƠNG THỊ HOA","Cấp bậc: Thượng úy", "Nơi công tác: Hà Nội","Việt nam", "Số Sao: 2", R.drawable.img));
-        arrayList.add(new Congan( "TRẦN ĐÌNH PHONG","Cấp bậc: Thiếu tá", "Nơi công tác: Hải phòng","Việt nam", "Số Sao: 1", R.drawable.img_1));
-        arrayList.add(new Congan( "NGUYỄN VĂN DIỆM","Cấp bậc: Thượng úy", "Nơi công tác: Hà Nội","Việt nam", "Số Sao: 2", R.drawable.img_2));
-        arrayList.add(new Congan( "NGUYỄN LÂM","Cấp bậc: Đại úy", "Nơi công tác: Nghệ An","Việt nam", "Số Sao: 1", R.drawable.img_3));
-        arrayList.add(new Congan( "VŨ ĐÌNH QUÂN","Cấp bậc: Hạ sỹ", "Nơi công tác: Đà Nẵng","Việt nam", "Số Sao: 2", R.drawable.img_4));
-        arrayList.add(new Congan( "MAI THỊ LAN","Cấp bậc: Đại úy", "Nơi công tác: Thành phố Hồ Chí Minh","Việt nam", "Số Sao: 2", R.drawable.img_5));
+        arrayList.add(new Thuoc( "TRƯƠNG THỊ HOA","Cấp bậc: Thượng úy", "Nơi công tác: Hà Nội","Việt nam", "Số Sao: 2", R.drawable.img));
+        arrayList.add(new Thuoc( "TRẦN ĐÌNH PHONG","Cấp bậc: Thiếu tá", "Nơi công tác: Hải phòng","Việt nam", "Số Sao: 1", R.drawable.img));
+        arrayList.add(new Thuoc( "NGUYỄN VĂN DIỆM","Cấp bậc: Thượng úy", "Nơi công tác: Hà Nội","Việt nam", "Số Sao: 2", R.drawable.img));
+        arrayList.add(new Thuoc( "NGUYỄN LÂM","Cấp bậc: Đại úy", "Nơi công tác: Nghệ An","Việt nam", "Số Sao: 1", R.drawable.img));
 
 
-
-        adapter = new Adapter_congan( MainActivity2.this,R.layout.layout_monan, arrayList);
+        adapter = new Adapter_thuoc( MainActivity2.this,R.layout.layout_monan, arrayList);
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -37,19 +34,19 @@ public class MainActivity2 extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if(position==0){
                     Intent intent = new Intent();
-                    intent.setClass(MainActivity2.this,Truongthihoa.class);
+                    intent.setClass(MainActivity2.this,panadol.class);
                     startActivity(intent);
                 }
-                if(position==1){
-                    Intent intent = new Intent();
-                    intent.setClass(MainActivity2.this,Trandinhphong.class);
-                    startActivity(intent);
-                }
-                if(position==2){
-                    Intent intent = new Intent();
-                    intent.setClass(MainActivity2.this,Nguyenvandiem.class);
-                    startActivity(intent);
-                }
+//                if(position==1){
+//                    Intent intent = new Intent();
+//                    intent.setClass(MainActivity2.this,Trandinhphong.class);
+//                    startActivity(intent);
+//                }
+//                if(position==2){
+//                    Intent intent = new Intent();
+//                    intent.setClass(MainActivity2.this,Nguyenvandiem.class);
+//                    startActivity(intent);
+//                }
 //                if(position==1){
 //                    Intent intent = new Intent();
 //                    intent.setClass(MainActivity2.this,MainActivity5.class);
