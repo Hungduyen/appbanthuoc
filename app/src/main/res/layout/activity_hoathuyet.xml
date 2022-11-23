@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".panadol"
+    tools:context=".hoathuyet"
     android:orientation="vertical"
     >
 
@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Thuốc hạ sốt Panadol Extra"
+            android:text="Thực phẩm chức năng hoạt huyết Nhất Nhất"
             android:textColor="#FF0000"
             android:textSize="21sp"
             android:textStyle="bold" />
@@ -28,7 +28,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            android:src="@drawable/img" />
+            android:src="@drawable/img_1" />
     </LinearLayout>
 
 
@@ -57,7 +57,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="Thuốc giảm đau"
+                android:text="Thực phẩm bổ máu"
                 android:textColor="#000"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -81,7 +81,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="Panadol Extra chứa paracetamol là một chất hạ sốt, giảm đau và caffeine là một chất tăng cường tác dụng giảm đau của paracetamol. Panadol Extra có hiệu quả trong: Điều trị đau nhẹ đến vừa và hạ sốt "
+                android:text="Hoạt Huyết Nhất Nhất là bài thuốc bổ huyết, hoạt huyết, có công dụng giúp phòng ngừa và điều trị thiểu năng tuần hoàn não (mệt mỏi, đau đầu, mất thăng bằng, hoa mắt, chóng mặt, mất ngủ, suy nhược thần kinh, suy giảm trí nhớ)."
                 android:textColor="#000"
                 />
         </LinearLayout>
@@ -106,7 +106,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:text="Thuốc được khuyến cáo để điều trị hầu hết các triệu chứng đau từ nhẹ đến vừa và hạ sốt, ví dụ như: Đau đầu, đau nửa đầu, đau lưng, đau răng, đau khớp, đau bụng kinh, giảm các triệu chứng cảm lạnh, cảm cúm và đau họng."
+                android:text="Thuốc Hoạt huyết Nhất Nhất có tác dụng bổ huyết, hoạt huyết thường được dùng trong các tình trạng sau: Điều trị các chứng huyết hư, ứ trệ. Tăng lượng oxy tới não cải thiện những cơn thiếu máu não nhằm duy trì sự hoạt động bình thường của não."
                 android:textColor="#000"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -131,7 +131,7 @@
                 android:layout_gravity="center_vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Liều dùng thuốc Panadol Extra cho người lớn và trẻ em Người lớn (kể cả người cao tuổi) và trẻ em từ 12 tuổi trở lên: uống 1 hoặc 2 viên mỗi 4 đến 6 giờ nếu cần. Liều tối đa hàng ngày: 8 viên."
+                android:text="Liều dùng của hoạt huyết độc nhất nhất Đối với người lớn Người thực hiện nên uống 2 viên/lần, 2 lần/ngày, uống thuốc sau bữa ăn. Với gần như người mắc bệnh bị bệnh mạn tính, cần phải uống tiếp tục từ 3-6 tháng."
                 android:textColor="#000"
                 />
         </LinearLayout>
@@ -150,15 +150,15 @@
                 android:text="Lưu ý khi dùng: "
                 android:textColor="#000"
                 />
-
             <TextView
                 android:id="@+id/th15"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:text="Lưu ý khi dùng thuốc Panadol Extra Khi dùng phải cẩn thận đối với người bị bệnh thiếu máu. Khi đó sẽ xuất hiện chứng xanh tím nhưng có thể lại không biểu lộ rõ. Nguyên nhân là do có nồng độ Methemoglobin trong máu quá cao đến mức nguy hiểm."
+                android:text="Trong quá trình sử dụng Hoạt Huyết Nhất Nhất, bạn cần lưu ý một số điểm sau: Sản phẩm không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh. Thận trọng khi sử dụng cho người đang bị xuất huyết hoặc có bệnh lý rối loạn đông máu."
                 android:textColor="#000"
-                android:textStyle="bold" />
+                />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

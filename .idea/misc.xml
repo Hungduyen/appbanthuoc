@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/DIEN MAY XANH/AndroidStudioProjects/appbanthuo/app/src/main/res/layout/activity_hoathuyet.xml" value="0.25" />
         <entry key="..\:/Users/DIEN MAY XANH/AndroidStudioProjects/appbanthuo/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
         <entry key="..\:/Users/DIEN MAY XANH/AndroidStudioProjects/appbanthuo/app/src/main/res/layout/activity_main2.xml" value="0.25" />
         <entry key="..\:/Users/DIEN MAY XANH/AndroidStudioProjects/appbanthuo/app/src/main/res/layout/activity_nguyenvandiem.xml" value="0.25" />
+        <entry key="..\:/Users/DIEN MAY XANH/AndroidStudioProjects/appbanthuo/app/src/main/res/layout/activity_nuocmuoi.xml" value="0.25" />
         <entry key="..\:/Users/DIEN MAY XANH/AndroidStudioProjects/appbanthuo/app/src/main/res/layout/activity_panadol.xml" value="0.25" />
         <entry key="..\:/Users/DIEN MAY XANH/AndroidStudioProjects/appbanthuo/app/src/main/res/layout/activity_truongthihoa.xml" value="0.25" />
         <entry key="..\:/Users/DIEN MAY XANH/AndroidStudioProjects/appbanthuo/app/src/main/res/layout/customdialog.xml" value="0.25" />

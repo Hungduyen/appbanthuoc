@@ -20,11 +20,9 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
         listView = findViewById(R.id.listviewthuoc);
         arrayList = new ArrayList<>();
-        arrayList.add(new Thuoc( "TRƯƠNG THỊ HOA","Cấp bậc: Thượng úy", "Nơi công tác: Hà Nội","Việt nam", "Số Sao: 2", R.drawable.img));
-        arrayList.add(new Thuoc( "TRẦN ĐÌNH PHONG","Cấp bậc: Thiếu tá", "Nơi công tác: Hải phòng","Việt nam", "Số Sao: 1", R.drawable.img));
-        arrayList.add(new Thuoc( "NGUYỄN VĂN DIỆM","Cấp bậc: Thượng úy", "Nơi công tác: Hà Nội","Việt nam", "Số Sao: 2", R.drawable.img));
-        arrayList.add(new Thuoc( "NGUYỄN LÂM","Cấp bậc: Đại úy", "Nơi công tác: Nghệ An","Việt nam", "Số Sao: 1", R.drawable.img));
-
+        arrayList.add(new Thuoc( "Panadol Extra", "Vỉ 12 viên", "", "","", "", R.drawable.img));
+        arrayList.add(new Thuoc( "Hoạt huyết Nhất Nhất", "Vỉ 20 viên", "", "","", "", R.drawable.img_1));
+        arrayList.add(new Thuoc( "Nước muối sinh lý", "Chai 1 lít", "", "","", "", R.drawable.img_2));
 
         adapter = new Adapter_thuoc( MainActivity2.this,R.layout.layout_monan, arrayList);
         listView.setAdapter(adapter);
@@ -37,16 +35,16 @@ public class MainActivity2 extends AppCompatActivity {
                     intent.setClass(MainActivity2.this,panadol.class);
                     startActivity(intent);
                 }
-//                if(position==1){
-//                    Intent intent = new Intent();
-//                    intent.setClass(MainActivity2.this,Trandinhphong.class);
-//                    startActivity(intent);
-//                }
-//                if(position==2){
-//                    Intent intent = new Intent();
-//                    intent.setClass(MainActivity2.this,Nguyenvandiem.class);
-//                    startActivity(intent);
-//                }
+                if(position==1){
+                    Intent intent = new Intent();
+                    intent.setClass(MainActivity2.this,hoathuyet.class);
+                    startActivity(intent);
+                }
+                if(position==2){
+                    Intent intent = new Intent();
+                    intent.setClass(MainActivity2.this,nuocmuoi.class);
+                    startActivity(intent);
+                }
 //                if(position==1){
 //                    Intent intent = new Intent();
 //                    intent.setClass(MainActivity2.this,MainActivity5.class);

@@ -1,60 +1,70 @@
 package com.example.appbanthuo;
 
 public class Thuoc {
-    private String hoten;
-    private String capbac;
-    private String noicongtac;
-    private String quocgia;
-    private String sosao;
+    private String tenkhoahoc;
+    private String tenthuonggoi;
+    private String dactinh;
+    private String congdung;
+    private String lieudung;
+    private String luuysudung;
     private int hinh;
 
-    public Thuoc(String hoten, String capbac, String noicongtac, String quocgia, String sosao, int hinh) {
-        this.hoten = hoten;
-        this.capbac = capbac;
-        this.noicongtac = noicongtac;
-        this.quocgia = quocgia;
-        this.sosao = sosao;
+    public Thuoc(String tenkhoahoc, String tenthuonggoi, String dactinh, String congdung, String lieudung,String luuysudung, int hinh) {
+        this.tenkhoahoc = tenkhoahoc;
+        this.tenthuonggoi = tenthuonggoi;
+        this.dactinh = dactinh;
+        this.congdung = congdung;
+        this.lieudung = lieudung;
+        this.luuysudung = luuysudung;
         this.hinh = hinh;
     }
 
-    public String getHoten() {
-        return hoten;
+    public String getTenkhoahoc() {
+        return tenkhoahoc;
     }
 
-    public void setHoten(String hoten) {
-        this.hoten = hoten;
+    public void getTenkhoahoc(String tenkhoahoc) {
+        this.tenkhoahoc = tenkhoahoc;
     }
 
-    public String getCapbac() {
-        return capbac;
+    public String getTenthuonggoi() {
+        return tenthuonggoi;
     }
 
-    public void setCapbac(String capbac) {
-        this.capbac = capbac;
+    public void getTenthuonggoi(String tenthuonggoi) {
+        this.tenthuonggoi = tenthuonggoi;
     }
 
-    public String getNoicongtac() {
-        return noicongtac;
+    public String getDactinh() {
+        return dactinh;
     }
 
-    public void setNoicongtac(String noicongtac) {
-        this.noicongtac = noicongtac;
+    public void getDactinh(String dactinh) {
+        this.dactinh = dactinh;
     }
 
-    public String getQuocgia() {
-        return quocgia;
+    public String getCongdung() {
+        return congdung;
     }
 
-    public void setQuocgia(String quocgia) {
-        this.quocgia = quocgia;
+    public void setCongdung(String congdung) {
+        this.congdung = congdung;
     }
 
-    public String getSosao() {
-        return sosao;
+    public String getLieudung() {
+        return lieudung;
     }
 
-    public void setSosao(String sosao) {
-        this.sosao = sosao;
+    public void setLieudung(String lieudung) {
+        this.lieudung = lieudung;
+    }
+
+    public String getLuuysudung() {
+        return luuysudung;
+    }
+
+    public void setLuuysudung(String luuysudung) {
+        this.luuysudung = luuysudung;
     }
 
     public int getHinh() {

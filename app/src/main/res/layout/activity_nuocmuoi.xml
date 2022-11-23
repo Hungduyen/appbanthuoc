@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Thuốc hạ sốt Panadol Extra"
+            android:text="Nước muối sinh lý"
             android:textColor="#FF0000"
             android:textSize="21sp"
             android:textStyle="bold" />
@@ -28,7 +28,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            android:src="@drawable/img" />
+            android:src="@drawable/img_2" />
     </LinearLayout>
 
 
@@ -57,7 +57,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="Thuốc giảm đau"
+                android:text="Nước muối sinh lý"
                 android:textColor="#000"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -81,7 +81,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="Panadol Extra chứa paracetamol là một chất hạ sốt, giảm đau và caffeine là một chất tăng cường tác dụng giảm đau của paracetamol. Panadol Extra có hiệu quả trong: Điều trị đau nhẹ đến vừa và hạ sốt "
+                android:text="Nước muối bột sinh lý đem về nhiều tính năng tuyệt vời mang đến làn da, vào đó hoàn toàn có thể kế đến một số tác dụng nổi bật như: Giúp loại bỏ nhanh tế bào chết, bụi bặm và bã nhờn trên da."
                 android:textColor="#000"
                 />
         </LinearLayout>
@@ -106,7 +106,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:text="Thuốc được khuyến cáo để điều trị hầu hết các triệu chứng đau từ nhẹ đến vừa và hạ sốt, ví dụ như: Đau đầu, đau nửa đầu, đau lưng, đau răng, đau khớp, đau bụng kinh, giảm các triệu chứng cảm lạnh, cảm cúm và đau họng."
+                android:text="Nước muối sinh lý dùng để nhỏ mắt. Nước muối sinh lý dùng để nhỏ mũi/ rửa mũi. Nước muối sinh lý dùng để nhỏ tai. Nước muối sinh lý dùng để rửa vết thương."
                 android:textColor="#000"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -131,7 +131,7 @@
                 android:layout_gravity="center_vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Liều dùng thuốc Panadol Extra cho người lớn và trẻ em Người lớn (kể cả người cao tuổi) và trẻ em từ 12 tuổi trở lên: uống 1 hoặc 2 viên mỗi 4 đến 6 giờ nếu cần. Liều tối đa hàng ngày: 8 viên."
+                android:text="Nước muối sinh lý đơn liều là một dạng nước muối sinh lý đóng trong ống nhỏ với liều lượng ít, chỉ khoảng 5ml -10ml và chỉ sử dụng một lần duy nhất sau khi đã mở nắp, kể cả khi trong ống còn thừa cũng không dùng tiếp."
                 android:textColor="#000"
                 />
         </LinearLayout>
@@ -150,15 +150,15 @@
                 android:text="Lưu ý khi dùng: "
                 android:textColor="#000"
                 />
-
             <TextView
                 android:id="@+id/th15"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:text="Lưu ý khi dùng thuốc Panadol Extra Khi dùng phải cẩn thận đối với người bị bệnh thiếu máu. Khi đó sẽ xuất hiện chứng xanh tím nhưng có thể lại không biểu lộ rõ. Nguyên nhân là do có nồng độ Methemoglobin trong máu quá cao đến mức nguy hiểm."
+                android:text="Nước muối sinh lý cũng có tác dụng rất tốt trong việc bảo vệ mũi khỏi bị viêm. Tuy nhiên, bạn không nên lạm dụng dùng hàng ngày, chỉ nên dùng khi mũi có dấu hiệu tắc nghẹt, sụt sịt, nước mũi chảy nhiều, mũi có mủ xanh."
                 android:textColor="#000"
-                android:textStyle="bold" />
+                />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
